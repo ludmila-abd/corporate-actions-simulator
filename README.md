@@ -55,11 +55,11 @@ It then processes five corporate actions:
 
 | Event | Type | Expected Outcome |
 |---|---|---|
-| AAPL 4-for-1 split | Stock split | Valid — shares increase and average cost falls |
-| KO cash dividend | Cash dividend | Valid — cash ledger increases |
-| GE spin-off into GEV | Spin-off | Valid — new GEV position is created |
-| MSFT split with negative ratio | Broken split | Invalid — routed to exception queue |
-| TSLA dividend | Ineligible dividend | Invalid — ticker not held in portfolio |
+| AAPL 4-for-1 split | Stock split | Valid - shares increase and average cost falls |
+| KO cash dividend | Cash dividend | Valid - cash ledger increases |
+| GE spin-off into GEV | Spin-off | Valid - new GEV position is created |
+| MSFT split with negative ratio | Broken split | Invalid - routed to exception queue |
+| TSLA dividend | Ineligible dividend | Invalid - ticker not held in portfolio |
 
 ---
 
